@@ -1,0 +1,8 @@
+.jumbotron {
+    background-color: rgba(0, 119, 182, 70%);
+    padding:50px 150px 50px 150px;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+}
