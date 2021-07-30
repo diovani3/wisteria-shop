@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 .footer {
     background-color: #0077B6;
-    font-family: Roboto Condensed;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-bottom: 90px;
 
 }
 .paragraf {
     color: white;
+    font-size: 20px;
+    font-weight: 400;
+
 }
 .footer-title {
     color: #fff;
     font-weight: 700;
+    font-size: 35px;
 
 }
 .pilihan {
@@ -24,4 +30,9 @@
 .gopay {
     width: 165px;
     height: 43px;
+}
+.pembayaran {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
 }
