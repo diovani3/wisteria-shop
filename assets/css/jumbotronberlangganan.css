@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+.jumbotron {
+    background-color: rgba(0, 119, 182, 50%);
+    text-align: center;
+    color: #ffff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/*dekstop*/
+.btn {
+    background-color: #FFEA00;
+    color: black;
+    width: 245px;
+    height: 84px;
+}
+.font {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 52px;
+    letter-spacing: 0.1rem;
+}
+
+.satu {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0.20rem;
+    line-height: 52px;
+}
+
+.text {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.1rem;
+    
+}
+/*smartphone*/
+b {
+    background-color: #FFEA00;
+    color: black;
+    width: 122px;
+    height: 42px;
+}
+.link {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 26px;
+    letter-spacing: 0.1rem;
+}
+
+.kata {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.20rem;
+    line-height: 53px;
+}
+
+.kalimat {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.1rem;
+}
