@@ -1,0 +1,58 @@
+.background {
+    background-color: rgba(202, 240, 248, 0.5);
+}
+
+.container {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card{
+    border-radius:20px;
+}
+
+.card-img-top {
+    border-radius: 20px;
+    width:230px;
+    height:185px;
+    margin-left: 29px;
+    margin-right:20px;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.pe {
+    font-size:35px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.p {
+    font-size:55px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.button {
+    background-color: rgba(221, 24, 74, 100%);
+    color: #fff;
+    font-size:38px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    
+}
+
+.btn-group {
+    width: 314px;
+    height: 76px;
+    border-radius: 5px;
+    margin-left:580px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
