@@ -233,7 +233,18 @@ input:focus{
 /* tablet */
 .jumbotron3 {
     background-color: rgba(0, 119, 182, 70%);
-    padding:151px 150px 50px 150px;
+    padding:113px 150px 50px 150px;
+}
+
+.contain2{
+    height:154px;
+    object-fit: cover;
+}
+
+.slide-style-custom2{
+    width:100%;
+    height:133px;
+    margin:auto;
 }
 
 .carousel-inner {
@@ -244,41 +255,56 @@ input:focus{
     height: 500px;
 }
 
-/* cards css */
+/* content */
 .background {
     background-color: rgba(202, 240, 248, 0.5);
 }
 
 .container {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "efframedium", Helvetica, Arial, sans-serif;
 }
 
-/* hp */
-.satu {
-    font-family: 'Roboto Condensed', sans-serif;
-    padding-top: 118px;
+/* card pc */
+.ukuran {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 47px;
+    padding-right: 100px;
 }
 
-.card{
-    border-radius:20px;
-    width: 18rem;
+.ukuran2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 65px;
+}
+
+.card1{
+    border-radius:11px;
+    width: 215px;
+    height:325px;
+    margin-left: 75px;
 }
 
 .card-img-top {
-    border-radius: 20px;
-    width:230px;
-    height:185px;
-    margin-left: 29px;
-    margin-right:20px;
-    margin-top: 32px;
+    border-radius: 10px;
+    width:148px;
+    height:113px;
+    margin-left: 33px;
+    margin-top: 22px;
     margin-bottom: 20px;
 }
 
 .card-title {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 40px;
+    font-size: 29px;
     font-weight: 700;
     letter-spacing: 0.1em;
+}
+
+/* hp */
+.satu {
+    font-family: "efframedium", Helvetica, Arial, sans-serif;
+    padding-top: 118px;
 }
 
 .pe {
@@ -289,6 +315,19 @@ input:focus{
 
 .p {
     font-size:55px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+/* content hp */
+.pe2 {
+    font-size:30px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.p2 {
+    font-size:44px;
     font-weight: 700;
     letter-spacing: 0.1em;
 }
@@ -306,7 +345,7 @@ input:focus{
 .button1 {
     background-color: rgba(221, 24, 74, 100%);
     color: #fff;
-    font-size:38px;
+    font-size:29px;
     font-weight: 700;
     letter-spacing: 0.1em;
     border-radius: 10px;
@@ -316,7 +355,7 @@ input:focus{
     width: 314px;
     height: 76px;
     border-radius: 5px;
-    margin-left:577px;
+    margin-left:542px;
     margin-top:50px;
     margin-bottom:50px;
 }
@@ -325,14 +364,14 @@ input:focus{
     width: 314px;
     height: 76px;
     border-radius: 5px;
-    margin-left:287px;
+    margin-left:300px;
     margin-right: 139px;
     margin-top:50px;
     margin-bottom:50px;
 }
 
 .btn-group2 {
-    width: 314px;
+    width: 293px;
     height: 76px;
     border-radius: 5px;
     margin-right: 18px;
@@ -340,27 +379,29 @@ input:focus{
     margin-bottom:50px;
 }
 
-/* jumbotron_berlangganan css */
+/* jumbotron_berlangganan pc */
+
 .jumbotron1 {
     background-color: rgba(0, 119, 182, 50%);
+    height: 312px;
     text-align: center;
     color: #ffff;
     font-family: 'Roboto Condensed', sans-serif;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-bottom:200px;
+    padding-top: 18px;
+    padding-bottom:10px;
+    margin-bottom:246px;
     margin-top:200px;
 }
 
 .btn1 {
     background-color: rgba(255, 234, 0, 1);
     color: black;
-    width: 245px;
-    height: 84px;
+    width: 180px;
+    height: 62px;
 }
 
 .font {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
     font-family: 'Roboto Condensed', sans-serif;
     line-height: 52px;
@@ -375,13 +416,95 @@ input:focus{
 }
 
 .font3 {
-    font-size: 60px;
+    font-size: 51px;
     font-weight: 700;
     line-height: 70px;
     letter-spacing: 0.1rem;
-    
 }
 
+/* jumbotron berlangganan tablet */
+.jumbotron4 {
+    background-color: rgba(0, 119, 182, 50%);
+    height: 279px;
+    text-align: center;
+    color: #ffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom:246px;
+    margin-top:200px;
+}
+
+.btn2 {
+    background-color: rgba(255, 234, 0, 1);
+    color: black;
+    width: 135px;
+    height: 51px;
+}
+
+.font4 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 52px;
+    letter-spacing: 0.1rem;
+}
+
+.font5 {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0.20rem;
+    line-height: 52px;
+}
+
+.font6 {
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.1rem;
+}
+
+/* jumbotron berlangganan hp */
+.jumbotron5 {
+    background-color: rgba(0, 119, 182, 50%);
+    height: 255px;
+    text-align: center;
+    color: #ffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom:243px;
+    margin-top:145px;
+}
+
+.btn3 {
+    background-color: rgba(255, 234, 0, 1);
+    color: black;
+    width: 115px;
+    height: 17px;
+}
+
+.font7 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 52px;
+    letter-spacing: 0.1rem;
+}
+
+.font8 {
+    font-size: 31px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    line-height: 52px;
+}
+
+.font9 {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.1rem;
+}
 
 /* footer css */
 .jumbotron2 {
@@ -455,14 +578,14 @@ input:focus{
 }
 
 .dana {
-    margin-top:32px;
-    width: 188px;
-    height: 60px;
+    margin-top:33px;
+    width: 172px;
+    height: 63px;
 }
 
 .gopay {
-    width: 213px;
-    height: 122px;
+    width: 193px;
+    height: 126px;
 }
 
 .alfamart {
