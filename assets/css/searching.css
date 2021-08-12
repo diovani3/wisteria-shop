@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+
+/* navbar css */
+.navbar-logo{
+    width:33%;
+}
+
+.navbar-home-logo{
+    height:0px;
+}
+
+.navbar{
+    background-color:rgba(0, 180, 216, 100%);
+}
+
+/* pc */
+.input{
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+input:focus{
+    outline: none;
+}
+
+.search_wrap.search_wrap_3 .search_box .input {
+    border-radius: 50px;
+    border-style:none;
+}
+
+.search_wrap.search_wrap_3 .search_box .btn {
+    border-radius: 50%;
+}
+
+.search_wrap {
+    margin-top:10px;
+}
+
+.search_wrap .search_box {
+    position: relative;
+    width: 425px;
+    height: 70px;
+}
+
+.search_wrap .search_box .input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 425px;
+    height: 60px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.search_wrap .search_box .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 85%;
+    background:#0077B6;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.search_wrap .search_box .btn:hover {
+    background: #708bd2;
+}
+
+/* navbartablet */
+.input{
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+input:focus{
+    outline: none;
+}
+
+.search_wrap_empat.search_wrap_4 .search_box_4 .input {
+    border-radius: 50px;
+    border-style:none;
+}
+
+.search_wrap_empat.search_wrap_4 .search_box_4 .btn {
+    border-radius: 50%;
+}
+
+.search_wrap_4 {
+    margin-top:10px;
+}
+
+.search_wrap_4 .search_box_4 {
+    position: relative;
+    width: 425px;
+    height: 70px;
+}
+
+.search_wrap_4 .search_box_4 .input {
+    position: absolute;
+    top: 0;
+    left: 209px;
+    width: 266px;
+    height: 41px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.search_wrap_empat.search_wrap_4 .search_box_4 .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 433px;
+    width: 43px;
+    height: 60%;
+    background:#0077B6;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.search_wrap_4 .search_box_4 .btn:hover {
+    background: #708bd2;
+}
+
+/* navbar hp */
+.input{
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+input:focus{
+    outline: none;
+}
+
+.search_wrap_lima.search_wrap_5 .search_box_5 .input {
+    border-radius: 50px;
+    border-style:none;
+}
+
+.search_wrap_lima.search_wrap_5 .search_box_5 .btn {
+    border-radius: 50%;
+}
+
+.search_wrap_5 {
+    margin-top:10px;
+}
+
+.search_wrap_5 .search_box_5 {
+    position: relative;
+    width: 425px;
+    height: 70px;
+}
+
+.search_wrap_5 .search_box_5 .input {
+    position: absolute;
+    top: 0;
+    left: 48px;
+    width: 249px;
+    height: 41px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.search_wrap_lima.search_wrap_5 .search_box_5 .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 255px;
+    width: 43px;
+    height: 60%;
+    background:#0077B6;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.search_wrap_5 .search_box_5 .btn:hover {
+    background: #708bd2;
+}
+
+/* pc */
+.button2 {
+    background-color: rgba(0, 180, 216, 100%); 
+    color: white; 
+    border: 2px solid #fff;
+    border-radius:30px;
+    padding: 5px 21px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+/* tablet */
+.button3 {
+    background-color: rgba(0, 180, 216, 100%); 
+    color: white; 
+    border: 2px solid #fff;
+    border-radius:17px;
+    padding: 7px 17px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+.btn {
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+
+
+
+
+/* filter n card */
+.background {
+    background: rgb(202, 240, 248, 0.5);
+}
+.jarak1 {
+    margin-left: 60px;
+}
+.list {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.card-checkbox {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 300px;
+    padding-left: 10px;
+    padding-top: 25px;
+    width: 300px;
+    height: 350px;
+    
+}
+.card-pubg {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.card-img-pubg {
+    border-radius: 10px;
+    float: left;
+    width: 160px;
+    height: 155px;
+    margin: 15px;
+}
+.card-isi {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    padding-top: 35px;
+}
+.card-judul {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+}
+.card-ket {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+}
+.detail {
+    background-color: #55A630;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 8px;
+}
+.card-img-game {
+    border-radius: 20px;
+    float: left;
+    width: 230px;
+    height: 165px;
+    margin: 15px;
+}
+
+/* tablet */
+.list-ipad {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.card-checkbox-ipad {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 300px;
+    padding-left: 10px;
+    padding-top: 25px;
+    width: 300px;
+    height: 350px;
+    
+}
+.card-pubg-ipad {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.card-img-pubg-ipad {
+    border-radius: 10px;
+    float: left;
+    width: 160px;
+    height: 155px;
+    margin: 15px;
+}
+.card-isi-ipad {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    /* font-size: ;
+    line-height: 41px;
+    letter-spacing: 2px; */
+    padding-left: 40px;
+    padding-top: 15px;
+}
+.card-judul-ipad {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+}
+.card-ket-ipad {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+}
+.detail-ipad {
+    background-color: #55A630;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.card-img-game-ipad {
+    border-radius: 10px;
+    float: left;
+    width: 180px;
+    height: 145px;
+    margin: 15px;
+}
+
+/* smartphone */
+.jarak1-sm {
+    margin-left: px;
+}
+.list-sm {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.card-checkbox-sm {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    padding-top: 20px;
+    
+}
+.card-pubg-sm {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 13px;
+}
+.card-img-pubg-sm {
+    border-radius: 10px;
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+.card-isi-sm {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 13px;
+
+}
+.card-judul-sm {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.card-ket-sm {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+}
+.detail-sm {
+    background-color: #55A630;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.card-img-game-sm {
+    border-radius: 10px;
+    float: left;
+    width: 130px;
+    height: 100px;
+    margin: 10px;
+}
+
+
+
+/* footer */
+.footer {
+    background-color: #0077B6;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.paragraf {
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+}
+.footer-title {
+    color: #fff;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+.pilihan {
+    color: white;
+
+}
+.isi {
+    color: white;
+    font-size: 17px;
+}
+
+/* tablet */
+.paragraf-ipad {
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+}
+.footer-title-ipad {
+    color: #fff;
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 20px;
+}
+.pilihan-ipad {
+    color: white;
+    margin-left: 0px;
+}
+.isi-ipad {
+    color: white;
+    font-size: 17px;
+}
+
+/* smartphone */
+.paragraf-sm {
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    max-width: 150px;
+    line-height: 15px;
+}
+.footer-title-sm {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 16px;
+}
+.pilihan-sm {
+    color: white;
+    font-size: 10px;
+}
+.isi-sm {
+    color: white;
+    font-size: 13px;
+}
+.pembayaran-sm {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
