@@ -448,79 +448,150 @@ input:focus{
 
 
 /* footer */
-.footer {
-    background-color: #0077B6;
+/* footer css */
+.jumbotron2 {
+    background-color: rgba(0, 119, 182 , 100%);
     font-family: 'Roboto Condensed', sans-serif;
-
-}
-.paragraf {
-    color: white;
-    font-size: 17px;
-    font-weight: 400;
-}
-.footer-title {
-    color: #fff;
-    font-weight: bold;
-    font-size: 28px;
-    margin-top: 20px;
-    letter-spacing: 1px;
-}
-.pilihan {
-    color: white;
-
-}
-.isi {
-    color: white;
-    font-size: 17px;
-}
-
-/* tablet */
-.paragraf-ipad {
-    color: white;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 23px;
-}
-.footer-title-ipad {
-    color: #fff;
-    font-weight: bold;
-    font-size: 23px;
-    margin-top: 20px;
-}
-.pilihan-ipad {
-    color: white;
-    margin-left: 0px;
-}
-.isi-ipad {
-    color: white;
-    font-size: 17px;
-}
-
-/* smartphone */
-.paragraf-sm {
-    color: white;
-    font-size: 13px;
-    font-weight: 400;
-    max-width: 150px;
-    line-height: 15px;
-}
-.footer-title-sm {
-    color: #fff;
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 16px;
-}
-.pilihan-sm {
-    color: white;
-    font-size: 10px;
-}
-.isi-sm {
-    color: white;
-    font-size: 13px;
-}
-.pembayaran-sm {
+    padding-bottom: 25px;
+  }
+  
+  .logo {
+    width: 244px;
+    height: 162px;
+    margin-top:20px;
+  }
+  
+  .lead {
+    margin-right : 0px;
+  }
+  
+  .content {
     color: white;
     font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .content2 {
+    color: #fff;
     font-weight: 700;
-    text-align: center;
-}
+    font-size: 35px;
+    margin-top:84px;
+  }
+  
+  /* hp */
+  .content4 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top:28px;
+  }
+  .content3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+  }
+  
+  .isi {
+    margin-right: 106px;
+  }
+  
+  /* hp */
+  .isi1 {
+    margin-right: 106px;
+  }
+  
+  .isi {
+    color: white;
+  }
+  
+  .isi2 {
+    color: white;
+  }
+  
+  .isi3 {
+    color: white;
+  }
+  
+  /* pc */
+  .pilihan {
+    color: white;
+    margin-left: 6px;
+    margin-top:60px;
+  }
+  
+  .dana {
+    margin-top:32px;
+    width: 188px;
+    height: 60px;
+  }
+  
+  .gopay {
+    width: 213px;
+    height: 122px;
+  }
+  
+  .alfamart {
+    width: 212px;
+    height: 60px;
+    margin-left: 86px;
+    margin-top: 28px;
+  }
+  
+  /* tablet */
+  .logo2 {
+    width: 244px;
+    height: 162px;
+    margin-top:20px;
+  }
+  
+  .pilihan2 {
+    color: white;
+    margin-top:13px;
+  }
+  
+  .dana2 {
+    width: 210px;
+    height: 60px;
+    margin-left:10px;
+  }
+  
+  .alfamart2 {
+    width: 201px;
+    height: 60px;
+    margin-left: 18px;
+    margin-top: 6px;
+  }
+  
+  .gopay2 {
+    width: 230px;
+    height: 122px;
+  }
+  
+  /* hp */
+  .logo3 {
+    width: 244px;
+    height: 136px;
+  }
+  
+  .pilihan3 {
+    color: white;
+    margin-top:16px;
+  }
+  
+  .dana3 {
+    margin-top: 25px;
+    width: 145px;
+    height: 53px;
+  }
+  
+  .gopay3 {
+    width: 191px;
+    height: 101px;
+  }
+  
+  .alfamart3 {
+    width: 192px;
+    height: 55px;
+    margin-left: 73px;
+  }
+  
