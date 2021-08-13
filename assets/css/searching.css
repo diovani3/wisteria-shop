@@ -520,22 +520,22 @@ input:focus{
   }
   
   .dana {
-    margin-top:32px;
-    width: 188px;
-    height: 60px;
-  }
+    margin-top: 33px;
+    width: 172px;
+    height: 63px;
+}
   
-  .gopay {
-    width: 213px;
-    height: 122px;
-  }
+.gopay {
+    width: 193px;
+    height: 126px;
+}
   
-  .alfamart {
+.alfamart {
     width: 212px;
     height: 60px;
     margin-left: 86px;
     margin-top: 28px;
-  }
+}
   
   /* tablet */
   .logo2 {
