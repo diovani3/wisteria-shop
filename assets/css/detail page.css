@@ -220,8 +220,8 @@ input:focus{
 .img-pubg {
     border-radius: 10px;
     float: left;
-    width: 180px;
-    height: 185px;
+    width: 128px;
+    height: 128px;
     margin: 20px;  
 }
 .card-title {
@@ -251,14 +251,6 @@ input:focus{
     font-weight: bold;
     letter-spacing: 0.1rem;
 }
-.angka {
-    background-color: rgb(196, 196, 196, 1);
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    width: 50px;
-    height: 50px;  
-}
 .text-satu {
     font-family: 'Roboto Condensed', sans-serif;
     color: #848484;
@@ -267,8 +259,8 @@ input:focus{
     letter-spacing: 1.5px;
 }
 .input-satu {
-    width: 275px;
-    margin-left: 135px;
+    width: 450px;
+    margin-left: 65px;
     border-radius: 5px;
 }
 .jumlah-satu {
@@ -280,10 +272,11 @@ input:focus{
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 1.5px;
+    margin-bottom: 20px;
 }
 .pembayaran {
-    width: 400px;
-    margin-left: 83px;
+    width: 500px;
+    margin-left: 45px;
 }
 .input-card4 {
     font-family: 'Roboto Condensed', sans-serif;
@@ -293,8 +286,8 @@ input:focus{
     letter-spacing: 1.5px;
 }
 .data-diri {
-    width: 410px;
-    margin-left: 75px;
+    width: 500px;
+    margin-left: 45px;
 }
 .submit {
     font-family: 'Roboto Condensed', sans-serif;
@@ -304,8 +297,8 @@ input:focus{
     letter-spacing: 2px;
     border-radius: 100px;
     margin-top: 50px;
-    margin-bottom: 60px;
-    margin-left: 180px;
+    margin-bottom: 100px;
+    margin-left: 195px;
     padding-right: 100px;
     padding-left: 100px;
     padding-top: 10px;
@@ -314,24 +307,46 @@ input:focus{
 .garis {
     border: 1px solid #C4C4C4;
 }
-
+.step-circle {
+    color: #fff;
+    margin-right: 15px;
+    background-color: rgb(196, 196, 196, 1);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    width: 50px;
+    height: 50px; 
+    padding-top: 6px;
+}
+.form-control {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.box {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 500px;
+    text-align: center;
+}
 /* Tablet */
 .img-pubg-ipad {
     border-radius: 10px;
     float: left;
-    width: 120px;
-    height: 125px;
-    margin: 20px;  
+    width: 105px;
+    height: 105px;
+    margin: 15px;  
 }
 .card-title-ipad {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     letter-spacing: 2px;
 }
 .card-text-ipad {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     line-height: 25px;
     letter-spacing: 2px;
@@ -350,13 +365,16 @@ input:focus{
     font-weight: bold;
     letter-spacing: 0.1rem;
 }
-.angka-ipad {
+.angka {
+    color: #fff;
+    margin-right: 15px;
     background-color: rgb(196, 196, 196, 1);
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
-    font-size: 23px;
-    width: 42px;
-    height: 43px;  
+    font-size: 20px;
+    width: 40px;
+    height: 40px; 
+    padding-top: 6px;
 }
 .text-satu-ipad {
     font-family: 'Roboto Condensed', sans-serif;
@@ -381,8 +399,8 @@ input:focus{
     letter-spacing: 1.5px;
 }
 .pembayaran-ipad {
-    width: 280px;
-    margin-left: 25px;
+    width: 295px;
+    margin-left: 5px;
 }
 .input-card4-ipad {
     font-family: 'Roboto Condensed', sans-serif;
@@ -392,8 +410,7 @@ input:focus{
     letter-spacing: 1.5px;
 }
 .data-diri-ipad {
-    width: 280px;
-    margin-left: 25px;
+    width: 295px;
 }
 .submit-ipad {
     font-family: 'Roboto Condensed', sans-serif;
@@ -402,22 +419,29 @@ input:focus{
     font-weight: bold;
     letter-spacing: 2px;
     border-radius: 100px;
-    margin-top: 50px;
-    margin-bottom: 60px;
-    margin-left: 70px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 120px;
     padding-right: 80px;
     padding-left: 80px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.box-ipad {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 295px;
+    text-align: center;
+}
 
 /* smartphone */
 .img-pubg-xs {
-    border-radius: 5px;
+    border-radius: 10px;
     float: left;
     width: 100px;
     height: 105px;
-    margin: 10px;  
+    margin: 15px;  
 }
 .card-title-xs {
     font-family: 'Roboto Condensed', sans-serif;
@@ -455,23 +479,22 @@ input:focus{
     letter-spacing: 1px;
 }
 .input-satu-xs {
-    width: 185px;
-    margin-left: 35px;
+    width: 250px;
     border-radius: 5px;
 }
 .jumlah-satu-xs {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 .pilih-jumlah-xs {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 15px;
     font-weight: bold;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 .pembayaran-xs {
     width: 250px;
-    margin-left: 18px;
+    margin-left: 5px;
 }
 .input-card4-xs {
     font-family: 'Roboto Condensed', sans-serif;
@@ -482,7 +505,7 @@ input:focus{
 }
 .data-diri-xs {
     width: 250px;
-    margin-left: 18px;
+    margin-left: 5px;
 }
 .submit-xs {
     font-family: 'Roboto Condensed', sans-serif;
@@ -492,14 +515,20 @@ input:focus{
     letter-spacing: 2px;
     border-radius: 100px;
     margin-top: 50px;
-    margin-bottom: 60px;
-    margin-left: 60px;
-    padding-right: 70px;
-    padding-left: 70px;
+    margin-bottom: 100px;
+    margin-left: 85px;
+    padding-right: 50px;
+    padding-left: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+.box-xs {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
+}
 
 
 /* footer css */
