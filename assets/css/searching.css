@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+
+/* navbar css */
+.navbar-logo{
+    width:33%;
+}
+
+.navbar-home-logo{
+    height:0px;
+}
+
+.navbar{
+    background-color:rgba(0, 180, 216, 100%);
+}
+
+/* pc */
+.input{
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+input:focus{
+    outline: none;
+}
+
+.search_wrap.search_wrap_3 .search_box .input {
+    border-radius: 50px;
+    border-style:none;
+}
+
+.search_wrap.search_wrap_3 .search_box .btn {
+    border-radius: 50%;
+}
+
+.search_wrap {
+    margin-top:10px;
+}
+
+.search_wrap .search_box {
+    position: relative;
+    width: 425px;
+    height: 70px;
+}
+
+.search_wrap .search_box .input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 425px;
+    height: 60px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.search_wrap .search_box .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 85%;
+    background:#0077B6;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.search_wrap .search_box .btn:hover {
+    background: #708bd2;
+}
+
+/* navbartablet */
+.input{
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+input:focus{
+    outline: none;
+}
+
+.search_wrap_empat.search_wrap_4 .search_box_4 .input {
+    border-radius: 50px;
+    border-style:none;
+}
+
+.search_wrap_empat.search_wrap_4 .search_box_4 .btn {
+    border-radius: 50%;
+}
+
+.search_wrap_4 {
+    margin-top:10px;
+}
+
+.search_wrap_4 .search_box_4 {
+    position: relative;
+    width: 425px;
+    height: 70px;
+}
+
+.search_wrap_4 .search_box_4 .input {
+    position: absolute;
+    top: 0;
+    left: 209px;
+    width: 266px;
+    height: 41px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.search_wrap_empat.search_wrap_4 .search_box_4 .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 433px;
+    width: 43px;
+    height: 60%;
+    background:#0077B6;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.search_wrap_4 .search_box_4 .btn:hover {
+    background: #708bd2;
+}
+
+/* navbar hp */
+.input{
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+input:focus{
+    outline: none;
+}
+
+.search_wrap_lima.search_wrap_5 .search_box_5 .input {
+    border-radius: 50px;
+    border-style:none;
+}
+
+.search_wrap_lima.search_wrap_5 .search_box_5 .btn {
+    border-radius: 50%;
+}
+
+.search_wrap_5 {
+    margin-top:10px;
+}
+
+.search_wrap_5 .search_box_5 {
+    position: relative;
+    width: 425px;
+    height: 70px;
+}
+
+.search_wrap_5 .search_box_5 .input {
+    position: absolute;
+    top: 0;
+    left: 48px;
+    width: 249px;
+    height: 41px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.search_wrap_lima.search_wrap_5 .search_box_5 .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 255px;
+    width: 43px;
+    height: 60%;
+    background:#0077B6;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.search_wrap_5 .search_box_5 .btn:hover {
+    background: #708bd2;
+}
+
+/* pc */
+.button2 {
+    background-color: rgba(0, 180, 216, 100%); 
+    color: white; 
+    border: 2px solid #fff;
+    border-radius:30px;
+    padding: 5px 21px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+/* tablet */
+.button3 {
+    background-color: rgba(0, 180, 216, 100%); 
+    color: white; 
+    border: 2px solid #fff;
+    border-radius:17px;
+    padding: 7px 17px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+.btn {
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+
+
+
+
+/* filter n card */
+.background {
+    background: rgb(202, 240, 248, 0.5);
+}
+.jarak1 {
+    margin-left: 60px;
+}
+.list {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.card-checkbox {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 300px;
+    padding-left: 10px;
+    padding-top: 25px;
+    width: 300px;
+    height: 350px;
+    
+}
+.card-pubg {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.card-isi {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    letter-spacing: 2px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.card-judul {
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+.card-ket {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+}
+.detail {
+    background-color: #55A630;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 2px;
+    width: 95px;
+    margin-top: 13px;
+}
+.card-img-game {
+    border-radius: 15px;
+    float: left;
+    width: 155px;
+    height: 122px;
+    margin: 15px;
+}
+
+/* tablet */
+.list-ipad {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.card-checkbox-ipad {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 200px;
+    padding-left: 10px;
+    padding-top: 25px;
+    width: 300px;
+    height: 350px;
+    
+}
+.card-pubg-ipad {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.card-isi-ipad {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.card-judul-ipad {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+.card-ket-ipad {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 2px;
+}
+.detail-ipad {
+    background-color: #55A630;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17x;
+    letter-spacing: 2px;
+    width: 80px;
+}
+.card-img-game-ipad {
+    border-radius: 10px;
+    float: left;
+    width: 140px;
+    height: 115px;
+    margin: 15px;
+}
+
+/* smartphone */
+.jarak1-sm {
+    margin-left: px;
+}
+.list-sm {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.card-checkbox-sm {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-top: 20px;
+    
+}
+.card-isi-sm {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 13px;
+
+}
+.card-judul-sm {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.card-ket-sm {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+}
+.detail-sm {
+    background-color: #55A630;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.card-img-game-sm {
+    border-radius: 10px;
+    float: left;
+    width: 130px;
+    height: 100px;
+    margin: 10px;
+}
+
+
+
+/* footer */
+/* footer css */
+.jumbotron2 {
+    background-color: rgba(0, 119, 182 , 100%);
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-bottom: 25px;
+  }
+  
+  .logo {
+    width: 244px;
+    height: 162px;
+    margin-top:20px;
+  }
+  
+  .lead {
+    margin-right : 0px;
+  }
+  
+  .content {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .content2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top:84px;
+  }
+  
+  /* hp */
+  .content4 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top:28px;
+  }
+  .content3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+  }
+  
+  .isi {
+    margin-right: 106px;
+  }
+  
+  /* hp */
+  .isi1 {
+    margin-right: 106px;
+  }
+  
+  .isi {
+    color: white;
+  }
+  
+  .isi2 {
+    color: white;
+  }
+  
+  .isi3 {
+    color: white;
+  }
+  
+  /* pc */
+  .pilihan {
+    color: white;
+    margin-left: 6px;
+    margin-top:60px;
+  }
+  
+  .dana {
+    margin-top: 33px;
+    width: 172px;
+    height: 63px;
+}
+  
+.gopay {
+    width: 193px;
+    height: 126px;
+}
+  
+.alfamart {
+    width: 212px;
+    height: 60px;
+    margin-left: 86px;
+    margin-top: 28px;
+}
+  
+  /* tablet */
+  .logo2 {
+    width: 244px;
+    height: 162px;
+    margin-top:20px;
+  }
+  
+  .pilihan2 {
+    color: white;
+    margin-top:13px;
+  }
+  
+  .dana2 {
+    width: 210px;
+    height: 60px;
+    margin-left:10px;
+  }
+  
+  .alfamart2 {
+    width: 201px;
+    height: 60px;
+    margin-left: 18px;
+    margin-top: 6px;
+  }
+  
+  .gopay2 {
+    width: 230px;
+    height: 122px;
+  }
+  
+  /* hp */
+  .logo3 {
+    width: 244px;
+    height: 136px;
+  }
+  
+  .pilihan3 {
+    color: white;
+    margin-top:16px;
+  }
+  
+  .dana3 {
+    margin-top: 25px;
+    width: 145px;
+    height: 53px;
+  }
+  
+  .gopay3 {
+    width: 191px;
+    height: 101px;
+  }
+  
+  .alfamart3 {
+    width: 192px;
+    height: 55px;
+    margin-left: 73px;
+  }
+  
