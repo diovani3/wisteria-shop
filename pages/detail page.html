@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS 4.6-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="../assets/plugins/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../assets/plugins/fontawesome/css/fontawesome.min.css">
+
+  <!-- Bootstrap CSS 4.0 -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+  <!-- my css -->
+  <link rel="stylesheet" href="../assets/css/detail page.css">
+
+  <title>detail page</title>
+</head>
+<body>
+  <!-- navbar pc -->
+    <nav class="navbar d-none d-md-none d-lg-block">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#" class="navbar-home-logo">
+                    <img src="../assets/img/logo navbar.png" class="navbar-logo" alt="image-navbar">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <div class="search_wrap search_wrap_3">
+                    <div class="search_box">
+                        <input type="text" class="input" placeholder="Voucher PUBG...">
+                        <div class="btn btn_common">
+                            <i class="fas fa-search h3 mt-2" style="color: #fff"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="row grup-btn-navbar">
+                    <div class="col-md-4 text-right p-0 invoice">
+                        <button class="btn btn-invoice btn-light rounded-pill">Invoice</button>
+                    </div>
+                    <div class="col-md-4 text-center p-0">
+                        <button class="button2">Sigin</button>
+                    </div>
+                    <div class="col-md-4 text-left p-0">
+                        <button class="btn btn-success rounded-pill">Signup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar tablet -->
+    <div class="responsive d-none d-lg-none d-md-block">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light justify-content-between">
+          <a class="navbar-brand" href="index.html">
+              <img src="../assets/img/logo navbar.png" width="150" height="65" alt="logo-wisteria">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+              aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+              <div class="text-center">
+                  <div class="search_wrap_empat search_wrap_4">
+                      <div class="search_box_4">
+                          <input type="text" class="input" placeholder="Voucher PUBG...">
+                          <div class="btn btn_common">
+                              <i class="fas fa-search h3 pr-2" style="color: #fff"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <form class="form text-center mb-3">
+                  <a href="#" class="btn btn-invoice btn-light rounded-pill mr-5">Invoice</a>
+                  <a href="#" class="button3 mr-5">Signin</a>
+                  <a href="#" class="btn btn-success rounded-pill mr-5">Signup</a>
+              </form>
+          </div>
+      </nav>
+  </div>
+  <!-- navbar hp -->
+  <div class="responsive d-none d-block d-sm-none d-sm-block d-md-none">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light justify-content-between">
+        <a class="navbar-brand" href="index.html">
+            <img src="../assets/img/logo navbar.png" width="150" height="65" alt="logo-wisteria">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+            <div class="search_wrap_lima search_wrap_5">
+                <div class="search_box_5">
+                    <input type="text" class="input" placeholder="Voucher PUBG...">
+                    <div class="btn btn_common">
+                        <i class="fas fa-search h3 pr-2" style="color: #fff"></i>
+                    </div>
+                </div>
+            </div>
+            <form class="form text-left mb-3">
+                <a href="#" class="btn btn-invoice btn-light rounded-pill ml-3 mr-4">Invoice</a>
+                <a href="#" class="button3 mr-4">Signin</a>
+                <a href="#" class="btn btn-success rounded-pill">Signup</a>
+            </form>
+        </div>
+    </nav>
+</div>
+
+
+
+
+
+<!-- detail -->
+  <form class="background">
+    <!-- card kiri -->
+    <div class="row col-12">
+    <div class="col-5 d-none d-lg-block ">
+      <div class="card shadow mb-3 mt-5 ml-5" style="width: 442px; height: 600px; border-radius: 20px;">
+        <div class="row no-gutters">
+          <div class="col" style="max-width: 150px;">
+            <img src="../assets/img/pubg 1.png" class="img-pubg">
+          </div>
+          <div class="col">
+            <div class="card-body">
+              <p class="card-title">Tencent</p>
+              <p class="card-text">Player Unknown Battleground</p>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="border: none; border-radius: 20px;">
+          <div class="card-body">  
+                <div class="row isi-card">
+                  <div class="col ">
+                    <p>Qty</p>
+                    <p>Metode Bayar</p>
+                    <p>Harga</p>
+                    <p>Biaya Admin</p>
+                  </div>
+                  <div class="col text-right">
+                    <p>25 UC</p>
+                    <p>Alfamart</p>
+                    <p>Rp.25,000</p>
+                    <p>Rp.2,000</p>
+                  </div>
+                </div>
+                <hr class="garis">
+              <div class="row isi-card">
+                <div class="col ">
+                  <p>Total</p>
+                </div>
+                <div class="col text-right">
+                  <p>Rp.27,000</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card kanan -->
+    <!-- card satu -->
+    <div class="col-7 mt-5 d-none d-lg-block">
+      <div class="card shadow ml-4 " style="width: 633px; border-radius: 20px;">
+        <div class="card-body">
+          <div class="d-flex">
+            <div class="step-circle text-center rounded-circle">1</div>
+            <p class="text-satu mt-2">Masukkan ID Pengguna</p>
+          </div>
+            <form class="form-inline">
+              <input class="form-control input-satu border-dark" type="search" placeholder="Cth: 00875677" aria-label="Search">
+            </form>
+        </div>
+      </div>
+      <!-- card 2 -->
+      <div class="card shadow mt-5 ml-4" style="width: 633px; border-radius: 20px;">
+        <div class="card-body mb-3">
+          <div class="d-flex">
+            <div class="step-circle text-center rounded-circle">2</div>
+            <p class="text-satu mt-2">Pilih Jumlah</p>
+          </div>
+          <div class="d-flex justify-content-between mt-4">
+            <button type="button" class="btn border-dark jumlah-satu pilih-jumlah ml-5">85 UC</button>
+            <button type="button" class="btn border-dark pilih-jumlah pl-4 pr-4">100 UC</button>
+            <button type="button" class="btn border-dark pilih-jumlah pl-4 pr-4 mr-5">150 UC</button>
+          </div>
+          <div class="d-flex justify-content-between mt-3">
+            <button type="button" class="btn border-dark pilih-jumlah pl-4 pr-4 ml-5">168 UC</button>
+            <button type="button" class="btn border-dark pilih-jumlah pl-4 pr-4">200 UC</button>
+            <button type="button" class="btn border-dark pilih-jumlah pl-4 pr-4 mr-5">235 UC</button>
+          </div>
+        </div>
+      </div>
+      <!-- card 3 -->
+      <div class="card shadow mt-5 ml-4" style="width: 633px; border-radius: 20px;">
+        <div class="card-body mb-3">
+          <div class="d-flex">
+            <div class="step-circle text-center rounded-circle">3</div>
+            <p class="text-satu mt-2">Metode Pembayaran</p>
+          </div>
+          <div class="input-group pembayaran mt-3 mb-4">
+            <input type="text" class="form-control border-dark pt-3 pb-3" placeholder="Alfamart" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-outline-dark pembayaran dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              E - Wallet
+            </button>
+            <div class="dropdown-menu box" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Ovo</a>
+              <a class="dropdown-item" href="#">Dana</a>
+              <a class="dropdown-item" href="#">Gopay</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card 4 -->
+      <div class="card shadow mt-5 ml-4" style="width: 633px; border-radius: 20px;">
+        <div class="card-body mb-4">
+          <div class="d-flex">
+            <div class="step-circle text-center rounded-circle">4</div>
+            <p class="text-satu mt-2">Data Diri</p>
+          </div>
+          <form>
+            <div class="form-group mt-4 data-diri ">
+              <label for="exampleInputEmail1" class="input-card4">Email</label>
+              <input type="email" class="form-control border-dark pt-4 pb-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="joan@gmail.com">
+            </div>
+            <div class="form-group data-diri mt-4">
+              <label for="exampleInputEmail1" class="input-card4">No Handphone</label>
+              <input type="email" class="form-control border-dark pt-4 pb-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="087708466279">
+            </div>
+          </form>
+          </div>
+        </div>
+        <!-- button submit -->
+        <button type="button" class="btn text-white submit">Submit</button>
+      </div>
+    </div>
+    </div>
+  </form>
+
+<!-- tablet -->
+<form class="background">
+  <!-- card kiri -->
+  <div class="row col-12">
+  <div class="col-5 d-none d-lg-none d-sm-none d-md-block mt-5">
+    <div class="card shadow mb-3 ml-4" style="width: 310px; height: 500px; border-radius: 20px; margin-top: 100px;">
+      <div class="row no-gutters">
+        <div class="col" style="max-width: 115px;">
+          <img src="../assets/img/pubg 1.png" class="img-pubg-ipad">
+        </div>
+        <div class="col">
+          <div class="card-body">
+            <p class="card-title-ipad">Tencent</p>
+            <p class="card-text-ipad">Player Unknown Battleground</p>
+          </div>
+        </div>
+      </div>
+      <div class="card" style="border: none; border-radius: 20px;">
+        <div class="card-body">  
+              <div class="row isi-card-ipad">
+                <div class="col ">
+                  <p>Qty</p>
+                  <p>Metode Bayar</p>
+                  <p>Harga</p>
+                  <p>Biaya Admin</p>
+                </div>
+                <div class="col text-right">
+                  <p>25 UC</p>
+                  <p>Alfamart</p>
+                  <p>Rp.25,000</p>
+                  <p>Rp.2,000</p>
+                </div>
+              </div>
+              <hr class="garis">
+            <div class="row isi-card-ipad">
+              <div class="col ">
+                <p>Total</p>
+              </div>
+              <div class="col text-right">
+                <p>Rp.27,000</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- card kanan -->
+  <!-- card satu -->
+  <div class="col-7 mt-5 d-none d-lg-none d-sm-none d-md-block">
+    <div class="card shadow" style="width: 350px; border-radius: 20px; margin-top: 100px; margin-left: 55px;">
+      <div class="card-body">
+        <div class="d-flex">
+          <div class="step-circle angka text-center rounded-circle">1</div>
+          <p class="text-satu-ipad mt-2">Masukkan ID Pengguna</p>
+        </div>
+          <form class="form-inline">
+            <input class="form-control input-satu-sm border-dark" type="search" placeholder="Cth: 00875677" aria-label="Search">
+          </form>
+      </div>
+    </div>
+    <!-- card 2 -->
+    <div class="card shadow mt-5" style="width: 350px; border-radius: 20px; margin-left: 55px;">
+      <div class="card-body mb-3">
+        <div class="d-flex">
+          <div class="step-circle angka text-center rounded-circle">2</div>
+          <p class="text-satu-ipad mt-2">Pilih Jumlah</p>
+        </div>
+        <div class="d-flex justify-content-between mt-3">
+          <button type="button" class="btn border-dark jumlah-satu-ipad pilih-jumlah-ipad">85 UC</button>
+          <button type="button" class="btn border-dark pilih-jumlah-ipad pl-3 pr-3">100 UC</button>
+          <button type="button" class="btn border-dark pilih-jumlah-ipad pl-3 pr-3">150 UC</button>
+        </div>
+        <div class="d-flex justify-content-between mt-2">
+          <button type="button" class="btn border-dark pilih-jumlah-ipad pl-3 pr-3">168 UC</button>
+          <button type="button" class="btn border-dark pilih-jumlah-ipad pl-3 pr-3">200 UC</button>
+          <button type="button" class="btn border-dark pilih-jumlah-ipad pl-3 pr-3">235 UC</button>
+        </div>
+      </div>
+    </div>
+    <!-- card 3 -->
+    <div class="card shadow mt-5" style="width: 350px; border-radius: 20px; margin-left: 55px;">
+      <div class="card-body mb-3">
+        <div class="d-flex">
+          <div class="step-circle angka text-center rounded-circle">3</div>
+          <p class="text-satu-ipad mt-2">Metode Pembayaran</p>
+        </div>
+        <div class="input-group pembayaran-ipad mt-3 mb-4">
+          <input type="text" class="form-control border-dark pt-3 pb-3" placeholder="Alfamart" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-outline-dark pembayaran-ipad dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            E - Wallet
+          </button>
+          <div class="dropdown-menu box-ipad" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Ovo</a>
+            <a class="dropdown-item" href="#">Dana</a>
+            <a class="dropdown-item" href="#">Gopay</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card 4 -->
+    <div class="card shadow mt-5" style="width: 350px; border-radius: 20px; margin-left: 55px;">
+      <div class="card-body">
+        <div class="d-flex">
+          <div class="step-circle angka text-center rounded-circle">4</div>
+          <p class="text-satu-ipad mt-2">Data Diri</p>
+        </div>
+        <form>
+          <div class="form-group mt-3 data-diri-ipad">
+            <label for="exampleInputEmail1" class="input-card4-ipad">Email</label>
+            <input type="email" class="form-control border-dark pt-4 pb-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="joan@gmail.com">
+          </div>
+          <div class="form-group data-diri-ipad">
+            <label for="exampleInputEmail1" class="input-card4-ipad">No Handphone</label>
+            <input type="email" class="form-control border-dark pt-4 pb-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="087708466279">
+          </div>
+        </form>
+        </div>
+      </div>
+      <!-- button submit -->
+      <button type="button" class="btn text-white submit-ipad">Submit</button>
+    </div>
+  </div>
+  </div>
+</form>
+
+<!-- smartphone -->
+<form class="background">
+  <!-- card kiri -->
+  <div class="row col-12">
+  <div class="col d-block d-sm-none mt-5">
+    <div class="card shadow" style="width: 300px; height: 380px; border-radius: 20px; margin-top: 80px; margin-left: 22px;">
+      <div class="row no-gutters">
+        <div class="col" style="max-width: 115px;">
+          <img src="../assets/img/pubg 1.png" class="img-pubg-xs">
+        </div>
+        <div class="col">
+          <div class="card-body">
+            <p class="card-title-xs">Tencent</p>
+            <p class="card-text-xs">Player Unknown Battleground</p>
+          </div>
+        </div>
+      </div>
+      <div class="card" style="border: none; border-radius: 20px;">
+        <div class="card-body">  
+              <div class="row isi-card-xs">
+                <div class="col ">
+                    <h1 class="daftar">Qty</h1>
+                    <h1 class="daftar">Metode Bayar</h1>
+                    <h1 class="daftar">Harga</h1>
+                    <h1 class="daftar">Biaya Admin</h1>
+                </div>
+                <div class="col text-right">
+                    <h1 class="daftar">25 UC</h1>
+                    <h1 class="daftar">Alfamart</h1>
+                    <h1 class="daftar">Rp.25,000</h1>
+                    <h1 class="daftar">Rp.2,000</h1>
+                </div>
+              </div>
+              <hr class="garis">
+            <div class="row isi-card-xs">
+              <div class="col">
+                <h1 class="daftar">Total</h1>
+              </div>
+              <div class="col text-right">
+                <h1 class="daftar">Rp.27,000</h1>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- card kanan -->
+  <!-- card satu -->
+  <div class="col mt-5 d-block d-sm-none">
+    <div class="card shadow" style="width: 300px; border-radius: 20px; margin-left: 22px">
+      <div class="card-body">
+        <div class="d-flex">
+          <div class="step-circle angka-xs text-center rounded-circle">1</div>
+          <p class="text-satu-xs mt-2">Masukkan ID Pengguna</p>
+        </div>
+          <form class="form-inline">
+            <input class="form-control input-satu-xs border-dark" type="search" placeholder="Cth: 00875677" aria-label="Search">
+          </form>
+      </div>
+    </div>
+    <!-- card 2 -->
+    <div class="card shadow mt-5" style="width: 300px; border-radius: 20px; margin-left: 22px">
+      <div class="card-body">
+        <div class="d-flex">
+          <div class="step-circle angka text-center rounded-circle">2</div>
+          <p class="text-satu-xs mt-2">Pilih Jumlah</p>
+        </div>
+        <div class="d-flex justify-content-between mt-3">
+          <button type="button" class="btn border-dark jumlah-satu-xs pilih-jumlah-xs">85 UC</button>
+          <button type="button" class="btn border-dark pilih-jumlah-xs">100 UC</button>
+          <button type="button" class="btn border-dark pilih-jumlah-xs">150 UC</button>
+        </div>
+        <div class="d-flex justify-content-between mt-3">
+          <button type="button" class="btn border-dark pilih-jumlah-xs ">168 UC</button>
+          <button type="button" class="btn border-dark pilih-jumlah-xs ">200 UC</button>
+          <button type="button" class="btn border-dark pilih-jumlah-xs ">235 UC</button>
+        </div>
+      </div>
+    </div>
+    <!-- card 3 -->
+    <div class="card shadow mt-5" style="width: 300px; border-radius: 20px; margin-left: 22px">
+      <div class="card-body mb-2">
+        <div class="d-flex">
+          <div class="step-circle angka text-center rounded-circle">3</div>
+          <p class="text-satu-xs mt-2">Metode Pembayaran</p>
+        </div>
+        <div class="input-group pembayaran-xs mt-3 mb-4">
+          <input type="text" class="form-control border-dark pt-3 pb-3" placeholder="Alfamart" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-outline-dark pembayaran-xs dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            E - Wallet
+          </button>
+          <div class="dropdown-menu box-xs" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Ovo</a>
+            <a class="dropdown-item" href="#">Dana</a>
+            <a class="dropdown-item" href="#">Gopay</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card 4 -->
+    <div class="card shadow mt-5" style="width: 300px; border-radius: 20px; margin-left: 22px">
+      <div class="card-body">
+        <div class="d-flex">
+          <div class="step-circle angka text-center rounded-circle">4</div>
+          <p class="text-satu-xs mt-2">Data Diri</p>
+        </div>
+        <form>
+          <div class="form-group mt-3 data-diri-xs ">
+            <label for="exampleInputEmail1" class="input-card4-xs">Email</label>
+            <input type="email" class="form-control border-dark pt-4 pb-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="joan@gmail.com">
+          </div>
+          <div class="form-group data-diri-xs">
+            <label for="exampleInputEmail1" class="input-card4-xs">No Handphone</label>
+            <input type="email" class="form-control border-dark pt-4 pb-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="087708466279">
+          </div>
+        </form>
+        </div>
+      </div>
+      <!-- button submit -->
+      <button type="button" class="btn text-white submit-xs">Submit</button>
+    </div>
+  </div>
+  </div>
+</form>
+
+
+
+
+
+<!-- footer -->
+<!-- dekstop -->
+<div class="jumbotron2 jumbotron-fluid d-none d-lg-block">
+    <div class="row lead">
+        <div class="col-md-4 ml-3">
+            <img src="../assets/img/logo navbar 2.png" class="logo"></img>
+            <p class="content">Nikmati pengalaman pembelian tanpa repot untuk membeli kredit game di Wisteria,
+                platform top-up terbesar untuk game. Kami menerima semua jenis pembayaran dan menawarkan 5.000+
+                judul game. Semua game pilihan tersedia.</p>
+        </div>
+        <div class="col-md-3">
+            <p class="content2 text-center">Daftar Layanan</p>
+            <ul class="pilihan d-flex flex-wrap">
+                <li>
+                    <a href="#" class="isi">Topup</a>
+                </li>
+                <li>
+                    <a href="#" class="isi2">Kemitraan</a>
+                </li>
+                <li>
+                    <a href="#" class="isi3 mr-5">Voucher PPOB</a>
+                </li>
+                <li>
+                    <a href="#" class="isi2">FAQ</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <p class="content2 text-center">Gerbang Pembayaran</p>
+            <div class="gambar d-flex flex-wrap ml-4">
+                <img src="../assets/img/dana.png" class="dana">
+                <img src="../assets/img/gopay 1.png" class="gopay">
+                <img src="../assets/img/alfamart 1.png" class="alfamart">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- footer tablet -->
+<div class="jumbotron2 jumbotron-fluid d-none d-md-block d-lg-none">
+    <div class="row lead">
+        <div class="col-md-4 ml-3 mt-3">
+            <img src="../assets/img/logo navbar 2.png" class="logo2"></img>
+            <p class="content">Nikmati pengalaman pembelian tanpa repot untuk membeli kredit game di Wisteria,
+                platform top-up terbesar untuk game. Kami menerima semua jenis pembayaran dan menawarkan 5.000+
+                judul game. Semua game pilihan tersedia.</p>
+        </div>
+        <div class="col-md-3">
+            <p class="content2 text-center">Daftar Layanan</p>
+            <ul class="pilihan2 d-flex flex-wrap list ml-0">
+                <li>
+                    <a href="#" class="isi">Topup</a>
+                </li>
+                <li>
+                    <a href="#" class="isi2">Kemitraan</a>
+                </li>
+                <li>
+                    <a href="#" class="isi3">Voucher PPOB</a>
+                </li>
+                <li>
+                    <a href="#" class="isi2">FAQ</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <p class="content2 text-center">Gerbang Pembayaran</p>
+            <div class="gambar d-flex flex-wrap ml-4">
+                <img src="../assets/img/dana.png" class="dana2">
+                <img src="../assets/img/gopay 1.png" class="gopay2">
+                <img src="../assets/img/alfamart 1.png" class="alfamart2">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- footer hp -->
+<div class="jumbotron2 jumbotron-fluid d-none d-block d-sm-block d-md-none">
+    <div class="row lead">
+        <div class="col-md-4 ml-3 mt-3">
+            <img src="../assets/img/logo navbar 2.png" class="logo3"></img>
+            <p class="content">Nikmati pengalaman pembelian tanpa repot untuk membeli kredit game di Wisteria,
+                platform top-up terbesar untuk game. Kami menerima semua jenis pembayaran dan menawarkan 5.000+
+                judul game. Semua game pilihan tersedia.</p>
+        </div>
+        <div class="col-md-3">
+            <p class="content3 text-center">Daftar Layanan</p>
+            <ul class="pilihan3 d-flex flex-wrap list ml-5">
+                <li>
+                    <a href="#" class="isi">Topup</a>
+                </li>
+                <li>
+                    <a href="#" class="isi2">Kemitraan</a>
+                </li>
+                <li>
+                    <a href="#" class="isi3 mr-5">Voucher PPOB</a>
+                </li>
+                <li>
+                    <a href="#" class="isi2">FAQ</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <p class="content4 text-center">Gerbang Pembayaran</p>
+            <div class="gambar d-flex flex-wrap ml-4">
+                <img src="../assets/img/dana.png" class="dana3">
+                <img src="../assets/img/gopay 1.png" class="gopay3">
+                <img src="../assets/img/alfamart 1.png" class="alfamart3">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) Bootstrap 4.6 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+
+    <!-- js font awesome -->
+    <script src="../assets/plugins/fontawesome/js/all.min.js"></script>
+    <script src="../assets/plugins/fontawesome/js/fontawesome.min.js"></script>
+</body>
+</html>
