@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS 4.6-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="../assets/plugins/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../assets/plugins/fontawesome/css/fontawesome.min.css">
+
+  <!-- my css -->
+  <link rel="stylesheet" href="../assets/css/searching.css">
+
+  <title>searching page</title>
+</head>
+<body>
+
+
+<!-- navbar -->
+  <!-- navbar pc -->
+    <nav class="navbar d-none d-md-none d-lg-block">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="index.html" class="navbar-home-logo">
+                    <img src="../assets/img/logo navbar.png" class="navbar-logo" alt="image-navbar">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <div class="search_wrap search_wrap_3">
+                    <div class="search_box">
+                        <input type="text" class="input" placeholder="Voucher PUBG...">
+                        <div class="btn btn_common">
+                          <a href="searching.html">
+                            <i class="fas fa-search h3 mt-2" style="color: #fff"></i>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="row grup-btn-navbar">
+                    <div class="col-md-4 text-right p-0 invoice">
+                    <!-- modal pc -->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-invoice btn-light rounded-pill" data-toggle="modal" data-target="#exampleModal">Invoice</button>
+
+                    </div>
+
+                    <div class="col-md-4 text-center p-0">
+                        <button class="button2">Sigin</button>
+                    </div>
+                    <div class="col-md-4 text-left p-0">
+                        <button class="btn btn-success rounded-pill">Signup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar tablet -->
+    <div class="responsive d-none d-lg-none d-md-block">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light justify-content-between">
+          <a class="navbar-brand" href="index.html">
+              <img src="../assets/img/logo navbar.png" width="150" height="65" alt="logo-wisteria">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+              aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+              <div class="text-center">
+                  <div class="search_wrap_empat search_wrap_4">
+                      <div class="search_box_4">
+                          <input type="text" class="input" placeholder="Voucher PUBG...">
+                          <div class="btn btn_common">
+                            <a href="searching.html">
+                              <i class="fas fa-search h3 pr-2" style="color: #fff;"></i>
+                            </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <form class="form text-center mb-3">
+                  <a href="#" class="btn btn-invoice btn-light rounded-pill mr-5" data-toggle="modal" data-target="#exampleModal">Invoice</a>
+                  <a href="#" class="button3 mr-5">Signin</a>
+                  <a href="#" class="btn btn-success rounded-pill mr-5">Signup</a>
+              </form>
+          </div>
+      </nav>
+  </div>
+  <!-- navbar hp -->
+  <div class="responsive d-none d-block d-sm-none d-sm-block d-md-none">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light justify-content-between">
+        <a class="navbar-brand" href="index.html">
+            <img src="../assets/img/logo navbar.png" width="150" height="65" alt="logo-wisteria">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+            <div class="search_wrap_lima search_wrap_5">
+                <div class="search_box_5">
+                    <input type="text" class="input" placeholder="Voucher PUBG...">
+                    <div class="btn btn_common">
+                      <a href="searching.html">
+                        <i class="fas fa-search h3 pr-2" style="color: #fff"></i>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <form class="form text-left mb-3">
+                <a href="#" class="btn btn-invoice btn-light rounded-pill ml-3 mr-4" data-toggle="modal" data-target="#exampleModal">Invoice</a>
+                <a href="#" class="button3 mr-4">Signin</a>
+                <a href="#" class="btn btn-success rounded-pill">Signup</a>
+            </form>
+        </div>
+    </nav>
+  </div>
+
+
+<!-- MODAL PC-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog dialog1">
+    <div class="modal-content media1">
+      <div class="modal-header modal-warna-ipad">
+        <p class="modal-title judul-modal" id="exampleModalLabel">Cari Nomor Pesanan</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" style="color: white;">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body body1 mt-4">
+        <form>
+          <div class="form-group text-left">
+            <p class="modal-semua1" for="exampleInputEmail1">Masukkan Kode Invoice</p>
+            <input type="email" class="form-control input-modal modal-semua1 shadow-sm pt-4 pb-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ex: 0012312445656">
+
+            <button type="button" class="btn btn-success rounded-pill text-white mt-3 pl-4 pr-4" data-toggle="modal" onclick="togglemodal()">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal 2 -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+    <div class="modal-content media2">
+      <div class="modal-header modal-warna-ipad" >
+        <p class="modal-title judul-modal" id="exampleModalLabel">Invoice Pesanan Anda</p>
+        <button type="button" class="btn btn-success modal-semua rounded-pill pl-4 pr-4" data-dismiss="modal" aria-label="Close">Cetak</button>
+      </div>
+      <div class="modal-body body2 mt-3">
+       <div class="row">
+         <div class="col-6 modal-semua text-left">
+           <p class="judul-modal">INV/2021/001</p>
+         </div>
+         <div class="col-6 modal-semua text-right">
+          <button type="button" class="btn btn-bayar-pc modal-semua rounded-pill">Belum Bayar</button>
+         </div>
+       </div>
+       <div class="row row2 ">
+         <div class="col ">
+           <p class="modal-semua">Customer: </p>
+         </div>
+         <div class="col">
+           <p class="modal-judul">Joan Soegiman</p>
+           <p class="modal-judul">089612135741</p>
+         </div>
+         <div class="col text2">
+           <p class="modal-semua">Invoice Date: </p>
+           <p class="modal-semua">Metode:</p>
+         </div>
+         <div class="col text2">
+           <p class="modal-judul">25 -  July - 2021</p>
+           <p class="modal-judul">Alfamart</p>
+         </div>
+       </div>
+       <table class="table table-bordered table-pc">
+        <thead>
+          <tr>
+            <th scope="col" class="modal-semua text-center">No</th>
+            <th scope="col" class="modal-semua">Nama Layanan</th>
+            <th scope="col" class="modal-semua">User Id</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="text-center">1</th>
+            <td class="modal-semua">Topup Pubg Mobile</td>
+            <td class="modal-semua">00875677</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="d-flex align-items-end flex-column bd-highlight">
+        <div class="p-2 bd-highlight">
+          <div class="card mb-3 mr-3" style="border: none;">
+            <div class="row">
+              <div class="col modal-semua text-left">
+                <p>Qty:</p>
+                <p>Harga:</p>
+                <p>Admin:</p>
+              </div>
+              <div class="col modal-judul text-right">
+                <p>26UC</p>
+                <p>Rp.25,000</p>
+                <p>Rp.2,000</p>
+              </div>
+            </div>
+            <hr class="model2-garis-pc">
+          <div class="row isi-card">
+            <div class="col modal-semua text-left">
+              <p>Total</p>
+            </div>
+            <div class="col modal-judul text-right">
+              <p>Rp.27,000</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- filter n card -->
+  <!-- dekstop -->
+  <form class="background">
+        <div class="row col-md-12">
+          <div class="col-md-4 pt-5 jarak1 d-none d-lg-block">
+            <!-- filter -->
+            <div class="card shadow mb-4 ml-3" style="border-radius: 15px; max-width: 320px;">
+                <ul class="list-group list-group-flush">
+                    <h3 class="list">FILTER</h3>
+                </ul>
+            </div>
+            <!-- checkbox -->
+            <div class="card shadow ml-3" style="border-radius: 20px; max-width: 320px;">
+              <div class="card-checkbox">
+                <div class="form-check">
+                  <input class="form-check-input ml-1" type="checkbox" value="" id="defaultCheck1" style="width: 18px; height: 18px;">
+                  <label class="form-check-label ml-5 mb-2" for="defaultCheck1">Voucher</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input ml-1" type="checkbox" value="" id="defaultCheck1" style="width: 18px; height: 18px;">
+                    <label class="form-check-label ml-5 mb-2" for="defaultCheck1">Tournament</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input ml-1" type="checkbox" value="" id="defaultCheck1" style="width: 18px; height: 18px;">
+                  <label class="form-check-label ml-5 mb-2" for="defaultCheck1">Terpopuler</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-1"></div> -->
+      <!-- card -->
+          <div class="col-md-7 pt-5 d-none d-lg-block">
+            <!-- pubg -->
+            <div class="card shadow" style="border-radius: 20px; margin-bottom: 40px; max-width: 700px;">
+              <div class="row no-gutters">
+                <div class="col-3">
+                  <img src="../assets/img/pubg 1.png" alt="pubg" class="card-img-game">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-isi">
+                    <h1 class="card-judul">Player Unknown Battleground</h1>
+                    <h1 class="card-ket">Tencent</h1>
+                    <a href="detail page.html" class="btn btn-success detail text-white">Detail</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- dota 2 -->
+            <div class="card shadow" style="border-radius: 20px; margin-bottom: 40px; max-width: 700px;">
+              <div class="row no-gutters">
+                <div class="col-3">
+                  <img src="../assets/img/dota 1.png" alt="dota 2" class="card-img-game">
+                </div>
+                <div class="col-8">
+                  <div class="card-isi">
+                    <h1 class="card-judul">DOTA 2</h1>
+                    <h1 class="card-ket">Blizzard</h1>
+                    <a href="detail page.html" class="btn btn-success detail text-white">Detail</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- mobilelegends -->
+            <div class="card shadow" style="border-radius: 20px; margin-bottom: 40px; max-width: 700px;">
+              <div class="row no-gutters">
+                <div class="col-3">
+                  <img src="../assets/img/ml.png" alt="Mobile Legends" class="card-img-game">
+                </div>
+                <div class="col-8">
+                  <div class="card-isi">
+                    <h1 class="card-judul">Mobile Legends Bang Bang</h1>
+                    <h1 class="card-ket">Moontoon</h1>
+                    <a href="detail page.html" class="btn btn-success detail text-white">Detail</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ff -->
+            <div class="card shadow" style="border-radius: 20px; margin-bottom: 40px; max-width: 700px;">
+              <div class="row no-gutters">
+                <div class="col-3">
+                  <img src="../assets/img/ff 1.png" alt="Free Fire" class="card-img-game">
+                </div>
+                <div class="col-8">
+                  <div class="card-isi">
+                    <h1 class="card-judul">Free Fire</h1>
+                    <h1 class="card-ket">Garena</h1>
+                    <a href="detail page.html" class="btn btn-success detail text-white">Detail</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- call of duty mobile -->
+            <div class="card shadow" style="border-radius: 20px; margin-bottom: 120px; max-width: 700px;">
+              <div class="row no-gutters">
+                <div class="col-3">
+                  <img src="../assets/img/codm.png" alt="Call Of Duty Mobile" class="card-img-game">
+                </div>
+                <div class="col-8">
+                  <div class="card-isi">
+                    <h1 class="card-judul">Call Of Duty Mobile</h1>
+                    <h1 class="card-ket">Garena</h1>
+                    <a href="detail page.html" class="btn btn-success detail text-white">Detail</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+<!-- tablet -->
+<form class="background">
+        <div class="row col-md-12">
+          <div class="col-md-5 pt-5 jarak1-ipad d-none d-lg-none d-sm-none d-md-block mt-5">
+            <!-- filter -->
+            <div class="card shadow mb-4 mt-5" style="border-radius: 15px; max-width: 400px;">
+                <ul class="list-group list-group-flush">
+                    <h3 class="list-ipad">FILTER</h3>
+                </ul>
+            </div>
+            <!-- checkbox -->
+            <div class="card shadow" style="border-radius: 20px; max-width: 300px;">
+              <div class="card-checkbox-ipad">
+                <div class="form-check">
+                  <input class="form-check-input ml-2 mt-2" type="checkbox" value="" id="defaultCheck1" style="width: 16px; height: 16px;">
+                  <label class="form-check-label ml-5 mb-2" for="defaultCheck1">Voucher</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input ml-2 mt-2" type="checkbox" value="" id="defaultCheck1" style="width: 16px; height: 16px;">
+                    <label class="form-check-label ml-5 mb-2" for="defaultCheck1">Tournament</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input ml-2 mt-2" type="checkbox" value="" id="defaultCheck1" style="width: 16px; height: 16px;">
+                  <label class="form-check-label ml-5 mb-2" for="defaultCheck1">Terpopuler</label>
+                </div>
+              </div>
+            </div>
+          </div>
+      <!-- card -->
+          <div class="col-7 pt-5 d-none d-lg-none d-sm-none d-md-block mt-5">
+            <!-- pubg -->
+            <div class="card shadow mt-5" style="border-radius: 20px; margin-bottom: 40px; width: 420px;">
+              <div class="row no-gutters">
+                <div class="col-5">
+                  <img src="../assets/img/pubg 1.png" alt="pubg" class="card-img-game-ipad">
+                </div>
+                <div class="col-7">
+                  <div class="card-isi-ipad">
+                    <h1 class="card-judul-ipad">Player Unknown Battleground</h1>
+                    <h1 class="card-ket-ipad">Tencent</h1>
+                    <a href="detail page.html" class="btn btn-success detail-ipad text-white mb-3">Detail</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- dota 2 -->
+            <div class="card shadow" style="border-radius: 20px; margin-bottom: 40px; width: 420px;">
+              <div class="row no-gutters">
+                <div class="col-5">
+                  <img src="../assets/img/dota 1.png" alt="dota 2" class="card-img-game-ipad">
+                </div>
+                <div class="col-6">
+                  <div class="card-isi-ipad">
+                    <h1 class="card-judul-ipad">DOTA 2</h1>
+                    <h1 class="card-ket-ipad">Blizzard</h1>
+                    <a href="detail page.html" class="btn btn-success detail-ipad text-white mt-2">Detail</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- mobilelegends -->
+            <div class="card shadow" style="border-radius: 20px; margin-bottom: 40px; width: 420px;">
+              <div class="row no-gutters">
+                <div class="col-5">
+                  <img src="../assets/img/ml.png" alt="Mobile Legends" class="card-img-game-ipad">
+                </div>
+                <div class="col-6">
+                  <div class="card-isi-ipad">
+                    <h1 class="card-judul-ipad">Mobile Legends Bang Bang</h1>
+                    <h1 class="card-ket-ipad">Moontoon</h1>
+                    <a href="detail page.html" class="btn btn-success detail-ipad text-white mb-3">Detail</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ff -->
+            <div class="card shadow" style="border-radius: 20px; margin-bottom: 40px; width: 420px;">
+              <div class="row no-gutters">
+                <div class="col-5">
+                  <img src="../assets/img/ff 1.png" alt="Free Fire" class="card-img-game-ipad">
+                </div>
+                <div class="col-6">
+                  <div class="card-isi-ipad">
+                    <h1 class="card-judul-ipad">Free Fire</h1>
+                    <h1 class="card-ket-ipad">Garena</h1>
+                    <a href="detail page.html" class="btn btn-success detail-ipad text-white mb-3 ">Detail</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- call of duty mobile -->
+            <div class="card shadow" style="border-radius: 20px; margin-bottom: 120px; width: 420px;">
+              <div class="row no-gutters">
+                <div class="col-5">
+                  <img src="../assets/img/codm.png" alt="Call Of Duty Mobile" class="card-img-game-ipad">
+                </div>
+                <div class="col-6">
+                  <div class="card-isi-ipad">
+                    <h1 class="card-judul-ipad">Call Of Duty Mobile</h1>
+                    <h1 class="card-ket-ipad">Garena</h1>
+                    <a href="detail page.html" class="btn btn-success detail-ipad text-white mt-2">Detail</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- smartphone -->
+    <div class="row col-md-12">
+      <div class="col-md-4 pt-5 jarak1-sm d-sm-block d-md-none ml-2 mt-5">
+        <!-- filter -->
+        <div class="card shadow mb-3 mt-4" style="border-radius: 10px; width: 320px;">
+            <ul class="list-group list-group-flush">
+                <h3 class="list-sm">FILTER</h3>
+            </ul>
+        </div>
+        <!-- checkbox -->
+        <div class="card shadow" style="border-radius: 15px; width: 320px;">
+          <div class="card-checkbox-sm">
+            <div class="form-check">
+              <input class="form-check-input ml-1 mt-2" type="checkbox" value="" id="defaultCheck1" style="width: 15px; height: 15px;">
+              <label class="form-check-label ml-5" for="defaultCheck1">Voucher</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input ml-1 mt-2" type="checkbox" value="" id="defaultCheck1" style="width: 15px; height: 15px;">
+                <label class="form-check-label ml-5" for="defaultCheck1">Tournament</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input ml-1 mt-2" type="checkbox" value="" id="defaultCheck1" style="width: 15px; height: 15px;">
+              <label class="form-check-label ml-5" for="defaultCheck1">Terpopuler</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-md-1"></div> -->
+  <!-- card -->
+      <div class="col-md-7 pt-5 d-sm-block d-md-none mb-5 ml-2">
+        <!-- pubg -->
+        <div class="card shadow" style="border-radius: 15px; margin-bottom: 20px; width: 320px; height: 140px;">
+          <div class="row no-gutters">
+            <div class="col" style="max-width: 155px;">
+              <img src="../assets/img/pubg 1.png" alt="pubg" class="card-img-game-sm">
+            </div>
+            <div class="col">
+              <div class="card-isi-sm">
+                <h1 class="card-judul-sm">Player Unknown Battleground</h1>
+                <h1 class="card-ket-sm">Tencent</h1>
+                <a href="detail page.html" class="btn btn-success detail-sm text-white">Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- dota 2 -->
+        <div class="card shadow" style="border-radius: 15px; margin-bottom: 20px; width: 320px; height: 130px;">
+          <div class="row no-gutters">
+            <div class="col" style="max-width: 155px;">
+              <img src="../assets/img/dota 1.png" alt="dota 2" class="card-img-game-sm">
+            </div>
+            <div class="col">
+              <div class="card-isi-sm">
+                <h1 class="card-judul-sm">DOTA 2</h1>
+                <h1 class="card-ket-sm">Blizzard</h1>
+                <a href="detail page.html" class="btn btn-success detail-sm text-white">Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- mobilelegends -->
+        <div class="card shadow" style="border-radius: 15px; margin-bottom: 20px; width: 320px; height: 140px;">
+          <div class="row no-gutters">
+            <div class="col" style="max-width: 155px;">
+              <img src="../assets/img/ml.png" alt="Mobile Legends" class="card-img-game-sm">
+            </div>
+            <div class="col">
+              <div class="card-isi-sm">
+                <h1 class="card-judul-sm">Mobile Legends Bang Bang</h1>
+                <h1 class="card-ket-sm">Moontoon</h1>
+                <a href="detail page.html" class="btn btn-success detail-sm text-white">Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ff -->
+        <div class="card shadow" style="border-radius: 15px; margin-bottom: 20px; width: 320px; height: 130px;">
+          <div class="row no-gutters">
+            <div class="col" style="max-width: 155px;">
+              <img src="../assets/img/ff 1.png" alt="Free Fire" class="card-img-game-sm">
+            </div>
+            <div class="col">
+              <div class="card-isi-sm">
+                <h1 class="card-judul-sm">Free Fire</h1>
+                <h1 class="card-ket-sm">Garena</h1>
+                <a href="detail page.html" class="btn btn-success detail-sm text-white">Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- call of duty mobile -->
+        <div class="card shadow" style="border-radius: 15px; margin-bottom: 60px; width: 320px; height: 130px;">
+          <div class="row no-gutters">
+            <div class="col" style="max-width: 155px;">
+              <img src="../assets/img/codm.png" alt="Call Of Duty Mobile" class="card-img-game-sm">
+            </div>
+            <div class="col">
+              <div class="card-isi-sm">
+                <h1 class="card-judul-sm">Call Of Duty Mobile</h1>
+                <h1 class="card-ket-sm">Garena</h1>
+                <a href="detail page.html" class="btn btn-success detail-sm text-white">Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+
+
+
+
+<!-- footer -->
+<!-- dekstop -->
+<div class="jumbotron2 jumbotron-fluid d-none d-lg-block">
+  <div class="row lead">
+      <div class="col-md-4 ml-3">
+          <img src="../assets/img/logo navbar 2.png" class="logo"></img>
+          <p class="content">Nikmati pengalaman pembelian tanpa repot untuk membeli kredit game di Wisteria,
+              platform top-up terbesar untuk game. Kami menerima semua jenis pembayaran dan menawarkan 5.000+
+              judul game. Semua game pilihan tersedia.</p>
+      </div>
+      <div class="col-md-3">
+          <p class="content2 text-center">Daftar Layanan</p>
+          <ul class="pilihan d-flex flex-wrap">
+              <li>
+                  <a href="#" class="isi">Topup</a>
+              </li>
+              <li>
+                  <a href="#" class="isi2">Kemitraan</a>
+              </li>
+              <li>
+                  <a href="#" class="isi3 mr-5">Voucher PPOB</a>
+              </li>
+              <li>
+                  <a href="#" class="isi2">FAQ</a>
+              </li>
+          </ul>
+      </div>
+      <div class="col-md-4">
+          <p class="content2 text-center">Gerbang Pembayaran</p>
+          <div class="gambar d-flex flex-wrap ml-4">
+              <img src="../assets/img/dana.png" class="dana">
+              <img src="../assets/img/gopay 1.png" class="gopay">
+              <img src="../assets/img/alfamart 1.png" class="alfamart">
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- footer tablet -->
+<div class="jumbotron2 jumbotron-fluid d-none d-md-block d-lg-none">
+  <div class="row lead">
+      <div class="col-md-4 ml-3 mt-3">
+          <img src="../assets/img/logo navbar 2.png" class="logo2"></img>
+          <p class="content">Nikmati pengalaman pembelian tanpa repot untuk membeli kredit game di Wisteria,
+              platform top-up terbesar untuk game. Kami menerima semua jenis pembayaran dan menawarkan 5.000+
+              judul game. Semua game pilihan tersedia.</p>
+      </div>
+      <div class="col-md-3">
+          <p class="content2 text-center">Daftar Layanan</p>
+          <ul class="pilihan2 d-flex flex-wrap list ml-0">
+              <li>
+                  <a href="#" class="isi">Topup</a>
+              </li>
+              <li>
+                  <a href="#" class="isi2">Kemitraan</a>
+              </li>
+              <li>
+                  <a href="#" class="isi3">Voucher PPOB</a>
+              </li>
+              <li>
+                  <a href="#" class="isi2">FAQ</a>
+              </li>
+          </ul>
+      </div>
+      <div class="col-md-4">
+          <p class="content2 text-center">Gerbang Pembayaran</p>
+          <div class="gambar d-flex flex-wrap ml-4">
+              <img src="../assets/img/logo navbar 2.png" class="dana2">
+              <img src="../assets/img/gopay 1.png" class="gopay2">
+              <img src="../assets/img/alfamart 1.png" class="alfamart2">
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- footer hp -->
+<div class="jumbotron2 jumbotron-fluid d-none d-block d-sm-block d-md-none">
+  <div class="row lead">
+      <div class="col-md-4 ml-3 mt-3">
+          <img src="../assets/img/logo navbar 2.png" class="logo3"></img>
+          <p class="content">Nikmati pengalaman pembelian tanpa repot untuk membeli kredit game di Wisteria,
+              platform top-up terbesar untuk game. Kami menerima semua jenis pembayaran dan menawarkan 5.000+
+              judul game. Semua game pilihan tersedia.</p>
+      </div>
+      <div class="col-md-3">
+          <p class="content3 text-center">Daftar Layanan</p>
+          <ul class="pilihan3 d-flex flex-wrap list ml-5">
+              <li>
+                  <a href="#" class="isi">Topup</a>
+              </li>
+              <li>
+                  <a href="#" class="isi2">Kemitraan</a>
+              </li>
+              <li>
+                  <a href="#" class="isi3 mr-5">Voucher PPOB</a>
+              </li>
+              <li>
+                  <a href="#" class="isi2">FAQ</a>
+              </li>
+          </ul>
+      </div>
+      <div class="col-md-4">
+          <p class="content4 text-center">Gerbang Pembayaran</p>
+          <div class="gambar d-flex flex-wrap ml-4">
+              <img src="../assets/img/logo navbar 2.png" class="dana3">
+              <img src="../assets/img/gopay 1.png" class="gopay3">
+              <img src="../assets/img/alfamart 1.png" class="alfamart3">
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) Bootstrap 4.6 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+
+    <!-- js font awesome -->
+    <script src="../assets/plugins/fontawesome/js/all.min.js"></script>
+    <script src="../assets/plugins/fontawesome/js/fontawesome.min.js"></script>
+
+    <!-- js modal -->
+    <script>
+      function togglemodal() {
+        $("#exampleModal").modal("hide")
+        $("#exampleModal2").modal("show")
+      }
+    </script>
+
+
+</body>
+</html>
