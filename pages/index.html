@@ -24,7 +24,7 @@
     <nav class="navbar d-none d-md-none d-lg-block">
         <div class="row">
             <div class="col-md-4">
-                <a href="#" class="navbar-home-logo">
+                <a href="index.html" class="navbar-home-logo">
                     <img src="../assets/img/logo navbar.png" class="navbar-logo" alt="image-navbar">
                 </a>
             </div>
@@ -32,16 +32,20 @@
                 <div class="search_wrap search_wrap_3">
                     <div class="search_box">
                         <input type="text" class="input" placeholder="Voucher PUBG...">
-                        <div class="btn btn_common">
-                            <i class="fas fa-search h3 mt-2" style="color: #fff"></i>
-                        </div>
+                        <a href="./searching.html">
+                            <div class="btn btn_common">
+                                <i class="fas fa-search h3 mt-2" style="color: #fff"></i>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mt-4">
                 <div class="row grup-btn-navbar">
                     <div class="col-md-4 text-right p-0 invoice">
-                        <button class="btn btn-invoice btn-light rounded-pill">Invoice</button>
+                        <!-- Button modal 1 -->
+                        <button type="button" class="btn btn-invoice btn-light rounded-pill" data-toggle="modal"
+                            data-target="#exampleModal">Invoice</button>
                     </div>
                     <div class="col-md-4 text-center p-0">
                         <button class="button2">Sigin</button>
@@ -68,14 +72,17 @@
                     <div class="search_wrap_empat search_wrap_4">
                         <div class="search_box_4">
                             <input type="text" class="input" placeholder="Voucher PUBG...">
-                            <div class="btn btn_common">
-                                <i class="fas fa-search h3 pr-2" style="color: #fff"></i>
-                            </div>
+                            <a href="./searching.html">
+                                <div class="btn btn_common">
+                                    <i class="fas fa-search h3 pr-2" style="color: #fff"></i>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <form class="form text-center mb-3">
-                    <a href="#" class="btn btn-invoice btn-light rounded-pill mr-5">Invoice</a>
+                    <a href="#" class="btn btn-invoice btn-light rounded-pill mr-5" data-toggle="modal"
+                        data-target="#exampleModal">Invoice</a>
                     <a href="#" class="button3 mr-5">Signin</a>
                     <a href="#" class="btn btn-success rounded-pill mr-5">Signup</a>
                 </form>
@@ -96,13 +103,16 @@
                 <div class="search_wrap_lima search_wrap_5">
                     <div class="search_box_5">
                         <input type="text" class="input" placeholder="Voucher PUBG...">
-                        <div class="btn btn_common">
-                            <i class="fas fa-search h3 pr-2" style="color: #fff"></i>
-                        </div>
+                        <a href="./searching.html">
+                            <div class="btn btn_common">
+                                <i class="fas fa-search h3 pr-2" style="color: #fff"></i>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <form class="form text-left mb-3">
-                    <a href="#" class="btn btn-invoice btn-light rounded-pill ml-3 mr-4">Invoice</a>
+                    <a href="#" class="btn btn-invoice btn-light rounded-pill ml-3 mr-4" data-toggle="modal"
+                        data-target="#exampleModal">Invoice</a>
                     <a href="#" class="button3 mr-4">Signin</a>
                     <a href="#" class="btn btn-success rounded-pill">Signup</a>
                 </form>
@@ -110,7 +120,118 @@
         </nav>
     </div>
 
+    <!-- modal 1 -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog dialog-1">
+            <div class="modal-content media1">
+                <div class="modal-header modal-warna-ipad">
+                    <p class="modal-title judul-modal" id="exampleModalLabel">Cari Nomor Pesanan</p>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="color: white;">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body body1 mt-4">
+                    <form>
+                        <div class="form-group text-left">
+                            <p class="modal-semua1" for="exampleInputEmail1">Masukkan Kode Invoice</p>
+                            <input type="email" class="form-control shadow-sm input-modal modal-semua pt-4 pb-4"
+                                id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ex: 0012312445656">
+                            <button type="button" class="btn btn-success rounded-pill text-white mt-3 pl-4 pr-4"
+                                data-toggle="modal" onclick="togglemodal()">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal 2 -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg">
+            <div class="modal-content media2">
+                <div class="modal-header modal-warna-ipad">
+                    <p class="modal-title judul-modal" id="exampleModalLabel">Invoice Pesanan Anda</p>
+                    <button type="button" class="btn btn-success modal-semua rounded-pill pl-4 pr-4"
+                        data-dismiss="modal" aria-label="Close">Cetak</button>
+                </div>
+                <div class="modal-body body2 mt-3">
+                    <div class="row">
+                        <div class="col-6 modal-semua text-left">
+                            <p class="judul-modal">INV/2021/001</p>
+                        </div>
+                        <div class="col-6 modal-semua text-right">
+                            <button type="button" class="btn btn-bayar-pc modal-semua rounded-pill">Belum Bayar</button>
+                        </div>
+                    </div>
+                    <div class="row row2 ">
+                        <div class="col ">
+                            <p class="modal-semua">Customer: </p>
+                        </div>
+                        <div class="col">
+                            <p class="modal-judul">Joan Soegiman</p>
+                            <p class="modal-judul">089612135741</p>
+                        </div>
+                        <div class="col text2">
+                            <p class="modal-semua">Invoice Date: </p>
+                            <p class="modal-semua">Metode:</p>
+                        </div>
+                        <div class="col text2">
+                            <p class="modal-judul">25 - July - 2021</p>
+                            <p class="modal-judul">Alfamart</p>
+                        </div>
+                    </div>
+                    <table class="table table-bordered table-pc">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="modal-semua text-center">No</th>
+                                <th scope="col" class="modal-semua">Nama Layanan</th>
+                                <th scope="col" class="modal-semua">User Id</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-center">1</th>
+                                <td class="modal-semua">Topup Pubg Mobile</td>
+                                <td class="modal-semua">00875677</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="d-flex align-items-end flex-column bd-highlight">
+                        <div class="p-2 bd-highlight">
+                            <div class="card mb-3 mr-3" style="border: none;">
+                                <div class="row">
+                                    <div class="col modal-semua text-left">
+                                        <p>Qty:</p>
+                                        <p>Harga:</p>
+                                        <p>Admin:</p>
+                                    </div>
+                                    <div class="col modal-judul text-right">
+                                        <p>26UC</p>
+                                        <p>Rp.25,000</p>
+                                        <p>Rp.2,000</p>
+                                    </div>
+                                </div>
+                                <hr class="model2-garis-pc">
+                                <div class="row isi-card">
+                                    <div class="col modal-semua text-left">
+                                        <p>Total</p>
+                                    </div>
+                                    <div class="col modal-judul text-right">
+                                        <p>Rp.27,000</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
     <!-- carousel pc-->
     <div class="jumbotron rounded-0 m-0 d-none d-lg-block">
         <div id="carouselExampleIndicators" class="carousel slide slide-style-custom" data-ride="carousel">
@@ -196,7 +317,7 @@
     <div class="responsive d-none d-md-none d-lg-block">
         <div class="ukuran d-flex flex-wrap justify-content-center">
             <div class="card card1">
-                <a class="img-card" href="#">
+                <a class="img-card" href="./detail page.html">
                     <img class="card-img-top" src="../assets/img/pubg 1.png" alt="Card image cap">
                 </a>
                 <div class="card-body">
@@ -204,7 +325,7 @@
                 </div>
             </div>
             <div class="card card1">
-                <a class="img-card" href="#">
+                <a class="img-card" href="./detail page.html">
                     <img class="card-img-top" src="../assets/img/dota 1.png" alt="Card image cap">
                 </a>
                 <div class="card-body">
@@ -212,7 +333,7 @@
                 </div>
             </div>
             <div class="card card1">
-                <a class="img-card" href="#">
+                <a class="img-card" href="./detail page.html">
                     <img class="card-img-top" src="../assets/img/ml.png" alt="Card image cap">
                 </a>
                 <div class="card-body">
@@ -220,7 +341,7 @@
                 </div>
             </div>
             <div class="card card1 mt-5">
-                <a class="img-card" href="#">
+                <a class="img-card" href="./detail page.html">
                     <img class="card-img-top" src="../assets/img/ff 1.png" alt="Card image cap">
                 </a>
                 <div class="card-body">
@@ -228,7 +349,7 @@
                 </div>
             </div>
             <div class="card card1 mt-5">
-                <a class="img-card" href="#">
+                <a class="img-card" href="./detail page.html">
                     <img class="card-img-top" src="../assets/img/codm.png" alt="Card image cap">
                 </a>
                 <div class="card-body">
@@ -241,7 +362,7 @@
     <div class="responsive d-none d-md-block d-lg-none">
         <div class="ukuran d-flex flex-wrap justify-content-center">
             <div class="card card1">
-                <a class="img-card" href="#">
+                <a class="img-card" href="./detail page.html">
                     <img class="card-img-top" src="../assets/img/pubg 1.png" alt="Card image cap">
                 </a>
                 <div class="card-body">
@@ -249,7 +370,7 @@
                 </div>
             </div>
             <div class="card card1">
-                <a class="img-card" href="#">
+                <a class="img-card" href="./detail page.html">
                     <img class="card-img-top" src="../assets/img/dota 1.png" alt="Card image cap">
                 </a>
                 <div class="card-body">
@@ -257,7 +378,7 @@
                 </div>
             </div>
             <div class="card card1 mt-5">
-                <a class="img-card" href="#">
+                <a class="img-card" href="./detail page.html">
                     <img class="card-img-top" src="../assets/img/ml.png" alt="Card image cap">
                 </a>
                 <div class="card-body">
@@ -265,7 +386,7 @@
                 </div>
             </div>
             <div class="card card1 mt-5">
-                <a class="img-card" href="#">
+                <a class="img-card" href="./detail page.html">
                     <img class="card-img-top" src="../assets/img/ff 1.png" alt="Card image cap">
                 </a>
                 <div class="card-body">
@@ -273,7 +394,7 @@
                 </div>
             </div>
             <div class="card card1 mt-5">
-                <a class="img-card" href="#">
+                <a class="img-card" href="./detail page.html">
                     <img class="card-img-top" src="../assets/img/codm.png" alt="Card image cap">
                 </a>
                 <div class="card-body">
@@ -286,7 +407,7 @@
     <div class="responsive d-none d-block d-sm-none d-sm-block d-md-none">
         <div class="ukuran2 d-flex flex-wrap justify-content-center">
             <div class="card card1 mb-5">
-                <a class="img-card" href="#">
+                <a class="img-card" href="./detail page.html">
                     <img class="card-img-top" src="../assets/img/pubg 1.png" alt="Card image cap">
                 </a>
                 <div class="card-body">
@@ -294,7 +415,7 @@
                 </div>
             </div>
             <div class="card card1">
-                <a class="img-card" href="#">
+                <a class="img-card" href="./detail page.html">
                     <img class="card-img-top" src="../assets/img/dota 1.png" alt="Card image cap">
                 </a>
                 <div class="card-body">
@@ -302,7 +423,7 @@
                 </div>
             </div>
             <div class="card card1 mt-5">
-                <a class="img-card" href="#">
+                <a class="img-card" href="./detail page.html">
                     <img class="card-img-top" src="../assets/img/ml.png" alt="Card image cap">
                 </a>
                 <div class="card-body">
@@ -310,7 +431,7 @@
                 </div>
             </div>
             <div class="card card1 mt-5">
-                <a class="img-card" href="#">
+                <a class="img-card" href="./detail page.html">
                     <img class="card-img-top" src="../assets/img/ff 1.png" alt="Card image cap">
                 </a>
                 <div class="card-body">
@@ -318,7 +439,7 @@
                 </div>
             </div>
             <div class="card card1 mt-5">
-                <a class="img-card" href="#">
+                <a class="img-card" href="./detail page.html">
                     <img class="card-img-top" src="../assets/img/codm.png" alt="Card image cap">
                 </a>
                 <div class="card-body">
@@ -494,6 +615,12 @@
     <script src="../assets/plugins/fontawesome/js/all.min.js"></script>
     <script src="../assets/plugins/fontawesome/js/fontawesome.min.js"></script>
 
+    <script>
+        function togglemodal() {
+            $("#exampleModal").modal("hide");
+            $("#exampleModal2").modal("show");
+        }
+    </script>
 </body>
 
 </html>
